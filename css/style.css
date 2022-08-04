@@ -103,7 +103,7 @@ section .feature-explanation .body-button {
   height: 50px;
   border-radius: 10px;
   border: none;
-  background-color: #538ffb;
+  background-color: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
   cursor: pointer;
   color: white;
   font-size: 15px;
@@ -194,6 +194,7 @@ section .feature-explanation .body-button:hover {
   margin-top: 40px;
   text-align: center;
 }
+
 .price-cards {
   display: flex;
   justify-content: space-around;
@@ -218,6 +219,19 @@ section .feature-explanation .body-button:hover {
 .price-cards .price-card p {
   color: grey;
 }
+.price-card #active {
+  background-color: #353535;
+  color: #fdfeff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.price-card #active-btn {
+  background: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
+  color: #fdfeff;
+  border: none;
+}
+
 .features-list ul {
   list-style-type: none;
   display: flex;
