@@ -103,7 +103,7 @@ section .feature-explanation .body-button {
   height: 50px;
   border-radius: 10px;
   border: none;
-  background-color: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
+  background-color: brown;
   cursor: pointer;
   color: white;
   font-size: 15px;
@@ -449,4 +449,46 @@ footer .logo-card {
   color: black;
   background: #fff;
   border: 2px solid black;
+}
+
+/* ============= Media screen for tablet 800px ===== */
+
+@media (max-width: 850px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-lists {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-image {
+    display: none;
+  }
+  .services .providing-services {
+    display: flex;
+  }
+  .service-cards {
+    display: none;
+  }
+  .pricing {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .price-cards {
+    display: flex;
+  }
+  .customer-title {
+    display: none;
+  }
+  .registration {
+    display: none;
+  }
+  footer {
+    position: relative;
+    top: 180px;
+  }
 }
